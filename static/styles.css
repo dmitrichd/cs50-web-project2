@@ -1,0 +1,30 @@
+.header, .footer {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+html, body {
+  height: 100%;
+}
+
+.center {
+  height: 100%;
+}
+
+.up, .down {
+  text-align: center;
+  color: #978299;
+  background-color: #d9e3d5;
+  height: 5%;
+}
+
+.middle{
+  background-color: #e8ebeb;
+  height: 90%;
+}
+
+.borderline {
+  border-right-style: solid;
+  border-right-width: thick;
+  border-right-color: #d9e3d5;
+}
