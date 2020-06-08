@@ -1,1 +1,27 @@
-{% extends layout.html%}
+{% extends 'layout.html' %}
+{% block left %}
+<h3 id="hello">Hello</h3>
+<button data-color="green">Green</button><br>
+<button data-color="red">Red</button><br>
+<button data-color="blue">Blue</button><br><br>
+<select>
+  <option value="black" data-color="black">Black</option>
+  <option value="green" data-color="green">Green</option>
+  <option value="red" data-color="red">Red</option>
+  <option value="blue" data-color="blue">Blue</option>
+</select>
+{% endblock %}
+
+{% block right %}
+<ul id="note_list">
+</ul>
+<br>
+<form id="add_note_form" method="post">
+  <input type="text" id="add_note_input" autocomplete="off" autofocus>
+  <input type="submit" id="submit">
+</form>
+<br>
+<h5 id="ajaxdata"></h5>
+<br>
+<button id="ajax">Click</button>
+{% endblock %}
